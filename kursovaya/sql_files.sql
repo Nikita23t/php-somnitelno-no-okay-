@@ -1,0 +1,24 @@
+CREATE TABLE users_login (
+login_id CHARACTER VARUING(30) PRIMARY KEY,
+password_user CHARACTER VARYING(30),
+status CHARACTER VARYING(30)
+);
+
+CREATE TABLE race_request (
+id INTEGER,
+race VARCHAR(255),
+name_racer VARCHAR(255)
+);
+
+CREATE TABLE race (
+id SERIAL PRIMARY KEY,
+race_name VARCHAR(255),
+race_date VARCHAR(255)
+);
+
+CREATE TABLE news (
+id SERIAL PRIMARY KEY,
+name_news VARCHAR(255),
+news VARCHAR(255),
+img VARCHAR(255)
+);
