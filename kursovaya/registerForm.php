@@ -8,8 +8,7 @@
     <script>
             window.onload = function() {
                 document.getElementById("registrationForm").onsubmit = function(event) {
-                    // Добавляем код для перенаправления на другую страницу после успешной отправки формы
-                    window.location.href = "authPage.php"; // Замените "новая_страница.php" на путь к вашей целевой странице
+                    window.location.href = "authPage.php"; 
                 }
             };
         </script>
